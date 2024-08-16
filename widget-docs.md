@@ -58,32 +58,39 @@ As an optional step, you can also customize the look and feel of the widget. Thi
 
 ```jsx
 const configuration = {
-  gradientStyle: {
+    gradientStyle: {
     background: "linear-gradient(#E66465, #9198E5)",
     spinnerColor: "#E66465",
     stopColor: "#9198E5",
   },
+  containerStyle:{
+    background:"#000000",
+    border:"1px solid #fff",
+    boxShadow:"1px 1px 7px 5px rgb(255,255,255,0.1)" ,
+  },
+  theme:"light",
   customTheme: {
     text: {
       primary: "#808080",
       secondary: "rgba(128, 128, 128, 0.75)",
-      selected: "#4C4C4C",
-      button: "#FFFFFF",
+      placeholder: "#cccccc",
       success: "#49AD71",
       error: "#FD5868",
     },
     background: {
       container: "#FFFFFF",
       secondary: "#E9E9E9",
+      card:"#FFFFFF",
       networkCard: "#F6F6F6",
-      disable: "#6F7473",
       loaderbar: "#E9E9E9",
+      coin:"#E0E0E0",
+      rewards:"#eaeaeb33"
     },
     border: {
       primary: "#E0E0E0",
-      secondary: "#808080",
       inputHighlight: "#9FC966",
     },
+    fontFamily:'"micro 5 charted"', sans-serif, lato;
     shadow: {
       boxShadow: "1px 1px 7px 5px rgb(255,255,255,0.1)",
     },
@@ -119,29 +126,29 @@ const configuration = {
   // containerStyle will override the styles written for the widget container, containerStyle accepts all the inline style properties.
   containerStyle:{
     background:"#000000", // changes the background color of the widget to black
-    border:"1px solid #fff" //adds border to the widget container
+    border:"1px solid #fff", //adds border to the widget container
     boxShadow:"1px 1px 7px 5px rgb(255,255,255,0.1)" // for adding desired shadow effect to the container.
   },
-  shouldPersistTxn:Boolean,// This prop is useful when the txn page steps need not be persisted if the page is refreshed,also this props is helpful when the widget is rendered inside a modal and when the persisted txn page should be redirected to the widget main screen when the modal is re-opened.If true the txn steps are persisted, if false txn steps won't be persisted.
+  theme:"light",  // light or dark, if custom theme is applied then custom theme will override light/dark theme
   customTheme: {
     text: {
       primary: "#808080", // primary color of the theme, this applies to headings, main text, svgs, etc..,
       secondary: "rgba(128, 128, 128, 0.75)",  //secondary color of the theme, this applies to secondary headings, network names, route info ,etc..,
-      selected: "#4C4C4C",// for updating the input amount colors, route output amount color and page top close button and backbutton.
-      button: "#FFFFFF", // button color of the widget(main page)
+      placeholder: "#cccccc",// to update  placeholder colors like input placeholder,date picker heading etc.,
       success: "#49AD71", // view all routes Higher output color
       error: "#FD5868", // error messages and lower output.
     },
     background: {
-      container: "#FFFFFF", // can be used to update the bg color of the widget container, cards, input amount container and routes container.
-      secondary: "#E9E9E9", // used as skeleton color of the coin images and icons.
+      container: "#FFFFFF", // can be used to update the bg color of the widget container, input amount container and routes container.
+      secondary: "#E9E9E9", // can be used to update the table cell background on portfolio page.
+      card:"#FFFFFF", //can be used to update the card color of the widget
       networkCard: "#F6F6F6", // used as background color for top main networks cards and transaction hash container in tokens section.
-      disable: "#6F7473", // used to update the disable state bg color of the main page button
       loaderbar: "#E9E9E9", // loader bar color accross the widget.
+      coin:"#E0E0E0", // used to update th default background color of the coin and chain icons.
+      rewards:"#eaeaeb33" // can be used to update the rewards section background color on history page
     },
     border: {
-      primary: "#E0E0E0",// primary border color of the widget, can be used to update the container, cards border of the widget.
-      secondary: "#808080", // secondary border is used to update the borders of coin images and icons.
+      primary: "#E0E0E0",// primary border color of the widget, can be used to update the container border,border of coin and chain icons, cards border of the widget.
       inputHighlight: "#9FC966", //inputHighlight is used to update the border color of search tokens input field on select chains page when there are more than 0 results.
     },
     fontFamily:'"micro 5 charted"', sans-serif, lato; // can be used to update the font family of the widget to match the parent site, add the fonts to your site and just pass the font name to the widget.
