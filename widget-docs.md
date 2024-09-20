@@ -50,6 +50,20 @@ Add the widget component to your app
 <Blockend />
 ```
 
+### Integrator Id (Required)
+
+Unique identifier assigned to each integration partner. It is used to track and manage various integrations within our system.Error will be thrown if this field is empty.
+
+```jsx
+const configuration = {
+  integratorId:""
+  ...
+};
+<Blockend  configuration={configuration} />
+```
+
+This id will be added in the request header of api calls that is made by the widget.
+
 And that is it, you have successfully integrated the Blockend Widget.
 
 ### 3. (optional) Customizing the Widget
@@ -58,7 +72,6 @@ As an optional step, you can also customize the look and feel of the widget. Thi
 
 ```jsx
 const configuration = {
-    integratorId:"",
     gradientStyle: {
     background: "linear-gradient(#E66465, #9198E5)",
     spinnerColor: "#E66465",
@@ -104,19 +117,6 @@ const configuration = {
 Full list of configuration options can be found [here](#configuration-options)
 
 ## Configuration Options
-
-### Integrator Id (Optional)
-
-Unique identifier assigned to each integration partner. It is used to track and manage various integrations within our system.
-
-```jsx
-const configuration = {
-  integratorId:""
-  ...
-};
-```
-
-This id will be added in the request header of api calls that is made by the widget.
 
 ### Customizing gradient colors
 
