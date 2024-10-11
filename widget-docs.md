@@ -1,4 +1,4 @@
-# <div style="font-size: 50px; text-align: center;"> <img width="40px" src="https://beta.blockend.com/blockendfavicon.svg"> Blockend</div>
+# Compass Widget
 
 Blockend Widget is a single-line-of-code integration which enables dapps to access users liquidity from across tokens, chains, and networks giving dapps higher market penetration and in-turn allowing more people to access the world of crypto and decentralized apps.
 
@@ -31,8 +31,7 @@ import Blockend from "blockend";
 import "blockend/dist/main.css";
 ```
 
-You may encounter Server Error... ReferenceError: self is not defined in your Next JS app,
-this is because blockend requires web apis to work and the web apis are not available on the server side when next js renders a page, in order to avoid this you can start by importing the Blockend Widget like below
+You may encounter Server Error... ReferenceError: self is not defined in your Next JS app, this is because blockend requires web apis to work and the web apis are not available on the server side when next js renders a page, in order to avoid this you can start by importing the Blockend Widget like below
 
 ```jsx
 import dynamic from "next/dynamic";
@@ -114,7 +113,7 @@ const configuration = {
 <Blockend configuration={configuration} />;
 ```
 
-Full list of configuration options can be found [here](#configuration-options)
+Full list of configuration options can be found [here](widget-docs.md#configuration-options)
 
 ## Configuration Options
 
@@ -175,8 +174,8 @@ const configuration = {
 
 ### Setting Default Chains and Tokens
 
-Widget gives you the option to set default chains and tokens to be shown to the user. This can be done by passing `defaultChains` and `defaultTokens` in configuration when initializing the widget.  
-See list of [supported chains](#supported-chains) and [tokens](#supported-tokens) below.
+Widget gives you the option to set default chains and tokens to be shown to the user. This can be done by passing `defaultChains` and `defaultTokens` in configuration when initializing the widget.\
+See list of [supported chains](widget-docs.md#supported-chains) and [tokens](widget-docs.md#supported-tokens) below.
 
 ```jsx
 const configuration = {
@@ -194,7 +193,8 @@ const configuration = {
 
 > Note: token address for native tokens is set to 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 
-<br>
+\
+
 
 Here is what a integration of widget on your frontend might look like:
 
@@ -259,7 +259,8 @@ curl -X GET "https://api.blockend.com/v1/tokens" \
   -H "accept: application/json"
 ```
 
-<br>
+\
+
 
 You can also pass `chainId` as query parameter to get tokens for a specific chain
 
@@ -268,7 +269,8 @@ curl -X GET "https://api.blockend.com/v1/tokens?chainId=sol" \
   -H "accept: application/json"
 ```
 
-<br>
+\
+
 
 You can also get list of supported chains by calling the following endpoint
 
@@ -281,11 +283,11 @@ curl -X GET "https://api.blockend.com/v1/chains" \
 
 While in beta we have integrated with a few providers, we are working on adding more providers to the list.
 
-- [Mayan Finance](https://mayan.finance)
-- [DLN (deBridge)](https://dln.trade)
-- [Jupiter](https://jup.ag)
-- [0x](https://0x.org)
-- [LiFi](https://li.fi)
-- [Socket](https://socket.tech)
-- [1Inch](https://1inch.io)
-- [Paraswap](https://paraswap.io)
+* [Mayan Finance](https://mayan.finance)
+* [DLN (deBridge)](https://dln.trade)
+* [Jupiter](https://jup.ag)
+* [0x](https://0x.org)
+* [LiFi](https://li.fi)
+* [Socket](https://socket.tech)
+* [1Inch](https://1inch.io)
+* [Paraswap](https://paraswap.io)
