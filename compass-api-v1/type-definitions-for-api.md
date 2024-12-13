@@ -1,8 +1,12 @@
 # Type Definitions for API
 
-### Basic Types
+##
 
-```typescript
+#### Basic Types <a href="#basic-types" id="basic-types"></a>
+
+Copy
+
+```
 type NetworkType = "evm" | "sol" | "utxo" | "cosmos" | "tron";
 
 type Asset = {
@@ -62,8 +66,11 @@ type StepType = "approval" | "swap" | "bridge" | "sign" | "claim";
 type TxnStatus = "not-started" | "in-progress" | "success" | "failed" | "cancelled";
 ```
 
-### Get Quotes 
-```typescript
+#### Get Quotes <a href="#get-quotes" id="get-quotes"></a>
+
+Copy
+
+```
 type QuoteRequest = {
   fromChainId: string; // chainId of the asset to swap from
   fromAssetAddress: string; // address of the asset to swap from
@@ -166,12 +173,13 @@ type Fee = {
   amountInUSD: string; // equivalent amount in USD
   token: Asset;
 };
-
 ```
 
-### Create a transaction
+#### Create a transaction <a href="#create-a-transaction" id="create-a-transaction"></a>
 
-```typescript
+Copy
+
+```
 
 type CreateTxnRequest = {
   routeId: string;
@@ -183,9 +191,11 @@ type CreateTxnResponse = {
 };
 ```
 
-### Next step in a transaction
+#### Next step in a transaction <a href="#next-step-in-a-transaction" id="next-step-in-a-transaction"></a>
 
-```typescript
+Copy
+
+```
 type NextTxnRequest = {
   routeId: string;
   stepId: string;
@@ -255,9 +265,11 @@ type TxnMetaData = {
 };
 ```
 
-### Check status of a transaction
+#### Check status of a transaction <a href="#check-status-of-a-transaction" id="check-status-of-a-transaction"></a>
 
-```typescript
+Copy
+
+```
 type StatusCheckRequest = NextTxnRequest & {
   txnHash: string;
 };
@@ -273,3 +285,6 @@ type StatusCheckResponse = {
   points?: number;
 };
 ```
+
+[\
+](https://docs.blockend.com/status-check)

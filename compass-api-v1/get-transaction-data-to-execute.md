@@ -1,23 +1,26 @@
-## Getting transaction data to execute
-Call this api with `routeId` and `stepId` of individual steps to get the transaction data to execute.  
-Once the transaction is executed, check the status of the transaction using `/status` api and proceed to the next step of the transaction.  
-<br>  
+# Get transaction data to execute
 
-> Note: you can ignore status check and skip to next step of the txn if `skipTxn` field is set to `true` in the response.  
-> Also, when `skipTxn` is set to `true`, `txnData` will be `null`.
+##
 
-<br>  
+Call this api with `routeId` and `stepId` of individual steps to get the transaction data to execute. Once the transaction is executed, check the status of the transaction using `/status` api and proceed to the next step of the transaction.
 
-Endpoint: `GET /nextTx`  
-Request query params
-```url
+> Note: you can ignore status check and skip to next step of the txn if `skipTxn` field is set to `true` in the response. Also, when `skipTxn` is set to `true`, `txnData` will be `null`.
+
+Endpoint: `GET /nextTx` Request query params
+
+Copy
+
+```
 /nextTx?
     routeId=
     &stepId=
 ```
 
 Response:
-```typescript
+
+Copy
+
+```
 {
     routeId: string;
     stepId: string;
@@ -25,22 +28,26 @@ Response:
     skipTxn?: boolean;
 }
 ```
-<br>  
 
-### Example
+### Example <a href="#example" id="example"></a>
+
 Lets now fetch the transaction data for the first step of the transaction we created in `/createTx` api.
 
 **Request:**
-```url
+
+Copy
+
+```
 https://api2.blockend.com/v1/nextTx
     ?routeId=01J2WB2ZTWAWXN9K48899CSSVN
     &stepId=01J2WB3JEB34B0A1SXHT1E3B63
 ```
-<br>  
 
-**Response:**  
-As the
-```json
+**Response:** As the
+
+Copy
+
+```
 {
     "status": "success",
     "data": {

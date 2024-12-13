@@ -1,40 +1,39 @@
-# Any Token Any Chain
+---
+description: >-
+  BlockEnd Labs builds infrastructure to unify and simplify crypto liquidity
+  across multiple blockchain networks, enabling seamless cross-chain
+  transactions.
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
 
-## **BlockEnd: Simplifying Web3 Liquidity**
+# BlockEnd Labs
 
-BlockEnd solves the problem of fragmented liquidity in Web3. With hundreds of blockchain networks creating isolated pools of liquidity, users often struggle with multiple decentralized exchanges (DEXes), complex bridges, and scattered liquidity. We're here to make things easier for both users and dApp developers.
-
-#### Our Products
-
-### 1. COMPASS (Live with 70+ Chains)
-
-COMPASS is a liquidity aggregator that helps your dApp handle transactions across different blockchains. Here's what it does:
-
-* Allows users to make transactions across any blockchain with just one click
-* Combines liquidity from various sources (bridges, DEXes, RFQ, and intent protocols)
-* Simplifies complex cross-chain transactions into a single action
-
-Benefits for dApp developers:
-
-* Easier user onboarding: Users can use your dApp from any blockchain or token
-* Improved user experience: No need for users to leave your platform for cross-chain actions
-* Expanded user base: Attract users and liquidity from multiple blockchains
-
-### 2. LEX (Coming Soon)
-
-LEX is our upcoming liquidity solution. While still in development, it aims to:
-
-* Bring quick capital access to less-served blockchains
-* Use smart methods to manage liquidity efficiently
-* Built on Solana for fast and scalable cross-chain transactions
-
-By integrating BlockEnd's products, you can offer your users a smoother experience with cross-chain transactions and potentially tap into new user bases across different blockchains. Our goal is to handle the complex parts of liquidity and cross-chain interactions, allowing you to focus on building and improving your core dApp features.\
+Web3 is fragmented, with hundreds of chains creating isolated pools of liquidity. Users struggle with multiple dexes, complex bridges, and scattered liquidity. \
 \
+**BlockEnd Labs** builds infrastructure to unify and simplify crypto liquidity across multiple blockchain networks, enabling seamless cross-chain transactions.\
 \
+&#xNAN;_&#x54;wo Products, One Mission:_  To become the central nervous system of all crypto liquidity.\
 \
-This is home to documentation related to Compass Widget and API.
+<img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/0031-fe0f-20e3@2x.png" alt=":one:" data-size="line">  **COMPASS** (Live with 80+ Chains)
 
-You can read Compass API documentation [here](api-docs.md).\
-And Widget related documentation [here](widget-docs.md).\
+_Enables one-click transactions across any chain, simplifying the user experience._\
 \
-For related type definitions, check [here](types.md).
+A web3 GPS for dApps. Onboard users from any chain or token without leaving your platform. Aggregates all existing liquidity, including bridges, DEXes, RFQ, and intent protocols, transforming complex cross-chain, multi-step transactions into one-click actions.
+
+<img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/0032-fe0f-20e3@2x.png" alt=":two:" data-size="line"> **LEX** (In Development)\
+\
+A Liquidity Engine bringing instant capital to underserved chains and enabling efficient liquidity for protocols to build on top of.\
+\
+A TransferWise-like liquidity engine for crypto, bringing instant capital to underserved chains. Uses micro liquidity pools, Coincidence of Wants, Intelligent rebalancing, and USDC-pegged stable-coins.\
+Built on the _Solana Virtual Machine_ for high throughput, scalable, and efficient cross-chain transactions.\
+\

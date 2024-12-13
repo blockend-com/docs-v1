@@ -1,12 +1,14 @@
-## Check status of a transaction
-After user signs and submits the transaction on chain, check the status of the transaction by passing in the signature hash of the transaction.  
-You need to keep polling this api to get the `status` of the transaction.  
-Once the status response is `success`, you can proceed to the next step of the transaction (if any).
-<br>  
+# Check transaction status
 
-Endpoint: `GET /status`  
-Request query params
-```url
+##
+
+After user signs and submits the transaction on chain, check the status of the transaction by passing in the signature hash of the transaction. You need to keep polling this api to get the `status` of the transaction. Once the status response is `success`, you can proceed to the next step of the transaction (if any).
+
+Endpoint: `GET /status` Request query params
+
+Copy
+
+```
 /status?
     routeId=
     &stepId=
@@ -14,7 +16,10 @@ Request query params
 ```
 
 Response:
-```typescript
+
+Copy
+
+```
 {
     routeId: string;
     stepId: string;
@@ -27,20 +32,26 @@ Response:
 }
 ```
 
-### Example
+### Example <a href="#example" id="example"></a>
+
 Now, let check the status of the transaction we fetched in the previous step.
 
 **Request:**
-```url
+
+Copy
+
+```
 https://api2.blockend.com/v1/status
     ?routeId=01J2WB2ZTWAWXN9K48899CSSVN
     &stepId=01J2WB3JEB34B0A1SXHT1E3B63
     &txnHash=0x3d7bdcfac0062b3c9ae1e4045bc43600c2c55c560dde7eebd2a15afb5ba1c390
 ```
-<br>  
 
 **Response:**
-```json
+
+Copy
+
+```
 {
     "status": "success",
     "data": {
