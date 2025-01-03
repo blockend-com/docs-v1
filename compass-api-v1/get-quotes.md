@@ -1,10 +1,14 @@
-## Getting quotes
-Flow starts with getting quotes for a transaction.
-<br>  
+# Get Quotes
 
-Endpoint: `GET /quotes`  
-Request query params
-```url
+## Getting quotes
+
+Flow starts with getting quotes for a transaction.
+
+Endpoint: `GET /quotes` Request query params
+
+Copy
+
+```
 /quotes
     ?fromChainId=
     &fromAssetAddress=
@@ -16,19 +20,24 @@ Request query params
 ```
 
 Reponse:
-```typescript
+
+Copy
+
+```
 {
     "quotes": Quote[];
 }
 ```
-<br>
 
-### Example
-The following exmaple shows how to get quotes for a cross-chain swap transaction from Ethereum to Solana. We'll be fetching quotes for ETH on Ethereum to USDC on Solana.  
-<br>  
+### Example <a href="#example" id="example"></a>
+
+The following exmaple shows how to get quotes for a cross-chain swap transaction from Ethereum to Solana. We'll be fetching quotes for ETH on Ethereum to USDC on Solana.
 
 **Request:**
-```url
+
+Copy
+
+```
 https://api2.blockend.com/v1/quotes
     ?fromChainId=1
     &fromAssetAddress=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
@@ -38,10 +47,12 @@ https://api2.blockend.com/v1/quotes
     &userWalletAddress=0x17e7c3DD600529F34eFA1310f00996709FfA8d5c
     &recipient=7zSa114U45nJ8b8ALsuhszS2Kxto8grgedh65Q7xJYii
 ```
-<br>  
 
 **Response:**
-```json
+
+Copy
+
+```
 {
     "status": "success",
     "data": {

@@ -1,37 +1,46 @@
-## Create a transaction
-Once user selects a quote fetched from `/quotes` api, start the transaction by sending a request to `/createTx` api with the `routeId` of the selected quote.  
-<br>
-Response will contain updated steps for the transaction. These updated steps include any additional steps required to complete the transaction such as, but not limited to, ERC20 approvals.
-<br>  
+# Create Transaction
 
-Endpoint: `GET /createTx`  
-Request query params
-```url
+## Create a transaction
+
+Once user selects a quote fetched from `/quotes` api, start the transaction by sending a request to `/createTx` api with the `routeId` of the selected quote. Response will contain updated steps for the transaction. These updated steps include any additional steps required to complete the transaction such as, but not limited to, ERC20 approvals.
+
+Endpoint: `GET /createTx` Request query params
+
+Copy
+
+```
 /createTx?
     routeId=
 ```
 
 Response:
-```typescript
+
+Copy
+
+```
 {
     "steps": Steps[];
 }
 ```
-<br>  
 
-### Exmaple
+### Exmaple <a href="#exmaple" id="exmaple"></a>
+
 Continuing example from `/quotes` api, let's start the transaction by sending a request to `/createTx` api with the `routeId` of the selected quote.
 
 **Request:**
-```url
+
+Copy
+
+```
 https://api1.bloclend.com/v1/createTx
     ?routeId=01J2WB2ZTWAWXN9K48899CSSVN
 ```
-<br>  
 
-**Response:**  
-The response for the selected quote now contains 2 steps. Additonal step being the approval step for USDC on Polygon chain.
-```json
+**Response:** The response for the selected quote now contains 2 steps. Additonal step being the approval step for USDC on Polygon chain.
+
+Copy
+
+```
 {
     "status": "success",
     "data": {

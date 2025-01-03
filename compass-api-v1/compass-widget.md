@@ -1,40 +1,49 @@
-# <div style="font-size: 50px; text-align: center;"> <img width="40px" src="https://beta.blockend.com/blockendfavicon.svg"> Blockend</div>
+# Compass Widget
+
+##
 
 Blockend Widget is a single-line-of-code integration which enables dapps to access users liquidity from across tokens, chains, and networks giving dapps higher market penetration and in-turn allowing more people to access the world of crypto and decentralized apps.
 
-## Installation
+### Installation <a href="#installation" id="installation"></a>
 
 Blockend Widget is available as an [npm package](https://www.npmjs.com/package/blockend).
 
 **npm:**
 
-```sh
+Copy
+
+```
 npm install blockend
 ```
 
 **yarn:**
 
-```sh
+Copy
+
+```
 yarn add blockend
 ```
 
-## Getting started with Blockend Widget
+### Getting started with Blockend Widget <a href="#getting-started-with-blockend-widget" id="getting-started-with-blockend-widget"></a>
 
 Integrating widget to your dapp or webiste is very easy. It takes a full 3 line of code to integrate and start using Blockend Widget, now that's a lot of work for a human dev.
 
-### 1. Import Widget dependencies
+#### 1. Import Widget dependencies <a href="#id-1.-import-widget-dependencies" id="id-1.-import-widget-dependencies"></a>
 
 In your react app, start by importing the Blockend Widget and its styles
 
-```jsx
+Copy
+
+```
 import Blockend from "blockend";
 import "blockend/dist/main.css";
 ```
 
-You may encounter Server Error... ReferenceError: self is not defined in your Next JS app,
-this is because blockend requires web apis to work and the web apis are not available on the server side when next js renders a page, in order to avoid this you can start by importing the Blockend Widget like below
+You may encounter Server Error... ReferenceError: self is not defined in your Next JS app, this is because blockend requires web apis to work and the web apis are not available on the server side when next js renders a page, in order to avoid this you can start by importing the Blockend Widget like below
 
-```jsx
+Copy
+
+```
 import dynamic from "next/dynamic";
 const Blockend = dynamic(() => import("blockend"), {
   ssr: false,
@@ -42,19 +51,23 @@ const Blockend = dynamic(() => import("blockend"), {
 import "blockend/dist/main.css";
 ```
 
-### 2. Initialize the Widget
+#### 2. Initialize the Widget <a href="#id-2.-initialize-the-widget" id="id-2.-initialize-the-widget"></a>
 
 Add the widget component to your app
 
-```jsx
+Copy
+
+```
 <Blockend />
 ```
 
-### Integrator Id (Required)
+#### Integrator Id (Required) <a href="#integrator-id-required" id="integrator-id-required"></a>
 
 Unique identifier assigned to each integration partner. It is used to track and manage various integrations within our system. Error will be thrown if this field is empty.
 
-```jsx
+Copy
+
+```
 const configuration = {
   integratorId:""
   ...
@@ -66,11 +79,13 @@ This id will be added in the request header of api calls that is made by the wid
 
 And that is it, you have successfully integrated the Blockend Widget.
 
-### 3. (optional) Customizing the Widget
+#### 3. (optional) Customizing the Widget <a href="#id-3.-optional-customizing-the-widget" id="id-3.-optional-customizing-the-widget"></a>
 
 As an optional step, you can also customize the look and feel of the widget. This can be done by passing a configuration object as prop when initializing the widget.
 
-```jsx
+Copy
+
+```
 const configuration = {
     gradientStyle: {
     background: "linear-gradient(#E66465, #9198E5)",
@@ -123,15 +138,17 @@ const configuration = {
 <Blockend configuration={configuration} />;
 ```
 
-Full list of configuration options can be found [here](#configuration-options)
+Full list of configuration options can be found [here](https://docs.blockend.com/widget-docs#configuration-options)
 
-## Configuration Options
+### Configuration Options <a href="#configuration-options" id="configuration-options"></a>
 
-### Customizing gradient colors
+#### Customizing gradient colors <a href="#customizing-gradient-colors" id="customizing-gradient-colors"></a>
 
 You can customize the gradient colors of the widget by passing `gradientStyle` object in configuration.
 
-```jsx
+Copy
+
+```
 const configuration = {
   gradientStyle: {
     background: "linear-gradient(#E66465, #9198E5)",
@@ -144,7 +161,9 @@ const configuration = {
 
 You can customize the theme of the widget by passing `customTheme` object in configuration.
 
-```jsx
+Copy
+
+```
 const configuration = {
   // containerStyle will override the styles written for the widget container, containerStyle accepts all the inline style properties.
   containerStyle:{
@@ -193,12 +212,13 @@ const configuration = {
 };
 ```
 
-### Setting Default Chains and Tokens
+#### Setting Default Chains and Tokens <a href="#setting-default-chains-and-tokens" id="setting-default-chains-and-tokens"></a>
 
-Widget gives you the option to set default chains and tokens to be shown to the user. This can be done by passing `defaultChains` and `defaultTokens` in configuration when initializing the widget.  
-See list of [supported chains](#supported-chains) and [tokens](#supported-tokens) below.
+Widget gives you the option to set default chains and tokens to be shown to the user. This can be done by passing `defaultChains` and `defaultTokens` in configuration when initializing the widget. See list of [supported chains](https://docs.blockend.com/widget-docs#supported-chains) and [tokens](https://docs.blockend.com/widget-docs#supported-tokens) below.
 
-```jsx
+Copy
+
+```
 const configuration = {
   defaultChains: {
     from: { chainId: "10" }, // optimism
@@ -214,11 +234,11 @@ const configuration = {
 
 > Note: token address for native tokens is set to 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 
-<br>
-
 Here is what a integration of widget on your frontend might look like:
 
-```jsx
+Copy
+
+```
 import Blockend from "blockend";
 import "blockend/dist/main.css";
 
@@ -243,69 +263,4 @@ export const Home = () => {
 };
 ```
 
-## Supported Chains
-
-| Chain         | Chain Id   |
-| ------------- | ---------- |
-| Solana        | sol        |
-| Ethereum      | 1          |
-| Optimism      | 10         |
-| BSC           | 56         |
-| Polygon       | 137        |
-| FUSE          | 122        |
-| Gnosis        | 100        |
-| Fantom        | 250        |
-| Base          | 8453       |
-| Arbitrum      | 42161      |
-| zkSync Era    | 324        |
-| Polygon zkEVM | 1101       |
-| Avalanche     | 43114      |
-| Boba          | 288        |
-| OKXChain      | 66         |
-| Moonbeam      | 1284       |
-| Moonriver     | 1285       |
-| Cronos        | 25         |
-| Heco          | 128        |
-| Aurora        | 1313161554 |
-| Harmony       | 1666600000 |
-| Evmos         | 9001       |
-
-## Supported Tokens
-
-Blockend Widget supports a whole array of token which would be difficult to list here, so we have built a handy API just for that
-
-```bash
-curl -X GET "https://api.blockend.com/v1/tokens" \
-  -H "accept: application/json"
-```
-
-<br>
-
-You can also pass `chainId` as query parameter to get tokens for a specific chain
-
-```bash
-curl -X GET "https://api.blockend.com/v1/tokens?chainId=sol" \
-  -H "accept: application/json"
-```
-
-<br>
-
-You can also get list of supported chains by calling the following endpoint
-
-```bash
-curl -X GET "https://api.blockend.com/v1/chains" \
-  -H "accept: application/json"
-```
-
-## Supported Integration Providers
-
-While in beta we have integrated with a few providers, we are working on adding more providers to the list.
-
-- [Mayan Finance](https://mayan.finance)
-- [DLN (deBridge)](https://dln.trade)
-- [Jupiter](https://jup.ag)
-- [0x](https://0x.org)
-- [LiFi](https://li.fi)
-- [Socket](https://socket.tech)
-- [1Inch](https://1inch.io)
-- [Paraswap](https://paraswap.io)
+### &#x20; <a href="#supported-chains" id="supported-chains"></a>
