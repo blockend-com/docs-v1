@@ -63,7 +63,7 @@ Copy
 
 #### Integrator Id (Required) <a href="#integrator-id-required" id="integrator-id-required"></a>
 
-Unique identifier assigned to each integration partner. It is used to track and manage various integrations within our system.Error will be thrown if this field is empty.
+Unique identifier assigned to each integration partner. It is used to track and manage various integrations within our system. Error will be thrown if this field is empty.
 
 Copy
 
@@ -98,6 +98,15 @@ const configuration = {
     boxShadow:"1px 1px 7px 5px rgb(255,255,255,0.1)" ,
   },
   theme:"light",
+   headingText: "",
+      headingContainerStyles: {
+        transform: "skewX(0deg)",
+        left: "0px",
+        top: "0px",
+      },
+      headingStyles: {
+        transform: "skewX(0deg)",
+      },
   customTheme: {
     text: {
       primary: "#808080",
@@ -163,6 +172,17 @@ const configuration = {
     boxShadow:"1px 1px 7px 5px rgb(255,255,255,0.1)" // for adding desired shadow effect to the container.
   },
   theme:"light",  // light or dark, if custom theme is applied then custom theme will override light/dark theme
+     headingText: "", // Text to display as the widget heading - pass the heading as string to display your own heading, default text is LAZY.exchange.
+      headingContainerStyles: {// Styles to customize the container that wraps the heading,
+        transform: "skewX(0deg)", // Supports all valid CSS style properties.
+        left: "0px",
+        top: "0px",
+      },
+      // Styles to customize the heading text itself,
+      // Supports all valid CSS style properties.
+      headingStyles: {
+        transform: "skewX(0deg)",
+      },
   customTheme: {
     text: {
       primary: "#808080", // primary color of the theme, this applies to headings, main text, svgs, etc..,
