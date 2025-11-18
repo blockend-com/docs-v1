@@ -2,14 +2,7 @@
   "supportedChains": [
     "1",
     "56",
-    "10",
-    "42161",
-    "43114",
-    "324",
-    "5000",
-    "534352",
-    "59144",
-    "sol"
+    "10"
   ],
   "supportedTokensMap": {
     "1": [
@@ -37,53 +30,6 @@
       "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
       "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
       "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
-    ],
-    "42161": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
-      "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
-      "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
-    ],
-    "43114": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
-      "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7"
-    ],
-    "324": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4",
-      "0x493257fd37edb34451f62edf8d2a0c418852ba4c"
-    ],
-    "5000": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0x4200000000000000000000000000000000000006",
-      "0x6c3ea9036406852006290770bedfcaba0e23a0e8"
-    ],
-    "534352": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0xd988097fb8612cc24eeC14542bC03424c656005f",
-      "0xe05606174bf6f9e1ae2c08b167b50b0f97d47d06"
-    ],
-    "59144": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0x0187013c0f88f9e1b6e122fa0ce6b7c4b9e69c69",
-      "0x4300000000000000000000000000000000000003"
-    ],
-    "sol": [
-      "So11111111111111111111111111111111111111112",
-      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-      "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
-      "A9mUU4qviSctJVPJdBJWkb28deg915LYJKrzQ19ji3FM",
-      "A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6",
-      "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
-      "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
-      "USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA",
-      "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-      "AvZZF1YaZDziPY2RCK4oJrRVrbN3mTD9NL24hPeaZeUj",
-      "9zNQRsGLjNKwCUU5Gq5LR8beUCPzQMVMqKAi3SSZh54u",
-      "59obFNBzyTBGowrkif5uK7ojS58vsuWz3ZCvg6tfZAGw",
-      "6FrrzDk5mQARGc1TDYoyVnSyRdds1t4PbtohCD6p3tgG",
-      "CB9dDufT3ZuQXqqSfa1c5kY935TEreyBw9XJXxHKpump"
     ]
   }
 }
