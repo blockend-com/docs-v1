@@ -9,37 +9,7 @@
     "5000",
     "534352",
     "59144",
-    "42220",
-    "250",
-    "1666600000",
-    "1313161554",
-    "288",
-    "1284",
-    "1285",
-    "100",
-    "25",
-    "30",
-    "122",
-    "66",
-    "34443",
-    "81457",
-    "43111",
-    "480",
-    "33139",
-    "sol",
-    "osmosis-1",
-    "cosmoshub-4",
-    "noble-1",
-    "axelar-dojo-1",
-    "neutron-1",
-    "stargaze-1",
-    "kaiyo-1",
-    "dydx-mainnet-1",
-    "celestia",
-    "umee-1",
-    "secret-4",
-    "core-1",
-    "sommelier-3"
+    "sol"
   ],
   "supportedTokensMap": {
     "1": [
@@ -61,19 +31,6 @@
       "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
       "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
       "0xe9e7cea3dedca5984780bafc599bd69add087d56"
-    ],
-    "137": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
-      "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
-      "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
-      "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
-    ],
-    "8453": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-      "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
-      "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2"
     ],
     "10": [
       "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
@@ -112,69 +69,6 @@
       "0x0187013c0f88f9e1b6e122fa0ce6b7c4b9e69c69",
       "0x4300000000000000000000000000000000000003"
     ],
-    "42220": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0x765de816845861e75a25fca122bb6898b8b1282a",
-      "0x27f706edde3ad952ef647dd67e24e38cd0803dd6"
-    ],
-    "250": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
-      "0x049d68029688eabf473097a2fc38ef61633a3c7a"
-    ],
-    "1666600000": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0x985458e523db3d53125813ed68c274899e9dfab4",
-      "0xe176ebe47d621b984a73036b9da5d834411ef734"
-    ],
-    "1313161554": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0x4988a896b1227218e4a686fde5eabdcabd91571f",
-      "0x397b06a83cc379b04b3750dbe5b8d26caa9a34fa"
-    ],
-    "288": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0x9a405bf19aAB9f0D85E1E0ed3f122F56C0b50000",
-      "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
-    ],
-    "1284": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0x722e8bdd2ce80a4422e880164f2079488e115365"
-    ],
-    "1285": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0x931715fee2d06333043d11f658c8ce934ac61d0c"
-    ],
-    "100": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83",
-      "0x4ecaba5870353805a9f068101a40e0f32ed605c6"
-    ],
-    "25": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0xc21223249ca28397b4b6541dffaecc539bff0c59",
-      "0x66e428c3f67a68878562e79a0234c1f83c208770"
-    ],
-    "30": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0x0d4890ecEc59cd55D640d36f7acc6F7F512Fdb6e"
-    ],
-    "122": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0xE3f5a90F9cb311505cd691a46596599aA1A0AD7D"
-    ],
-    "66": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0x382bb369d343125bfb2117af9c149795c6c65c50"
-    ],
-    "34443": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0x4200000000000000000000000000000000000006"
-    ],
-    "81457": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
-    ],
     "sol": [
       "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
@@ -189,20 +83,6 @@
       "59obFNBzyTBGowrkif5uK7ojS58vsuWz3ZCvg6tfZAGw",
       "6FrrzDk5mQARGc1TDYoyVnSyRdds1t4PbtohCD6p3tgG",
       "CB9dDufT3ZuQXqqSfa1c5kY935TEreyBw9XJXxHKpump"
-    ],
-    "osmosis-1": [
-      "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
-      "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
-      "ibc/231FD77ECCB2DB916D314019DA30FE013202833386B1908A191D16989AD80B5A"
-    ],
-    "noble-1": [
-      "uusdc"
-    ],
-    "axelar-dojo-1": [
-      "uaxl"
-    ],
-    "neutron-1": [
-      "ibc/DE7A4D3539D87BC9F991C820F5B9691B72E74FC1907C24F743CDE22A583E8F2F"
     ]
   }
 }
