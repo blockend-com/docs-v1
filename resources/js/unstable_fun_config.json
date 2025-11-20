@@ -2,7 +2,8 @@
   "supportedChains": [
     "1",
     "56",
-    "10"
+    "10",
+    "sol"
   ],
   "supportedTokensMap": {
     "1": [
