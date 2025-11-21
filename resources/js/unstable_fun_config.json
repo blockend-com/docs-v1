@@ -5,7 +5,8 @@
     "10",
     "8453",
     "sol",
-    "9745"
+    "9745",
+    "42161"
   ],
   "supportedTokensMap": {
     "1": [
@@ -70,6 +71,12 @@
       "0x2a52b289ba68bbd02676640aa9f605700c9e5699",
       "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
       "0x6100e367285b01f48d07953803a2d8dca5d19873"
+    ],
+    "42161": [
+      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
     ]
   }
 }
