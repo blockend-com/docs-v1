@@ -12,7 +12,8 @@
     "43114",
     "25",
     "59144",
-    "dydx-mainnet-1"
+    "dydx-mainnet-1",
+    "534352"
   ],
   "supportedTokensMap": {
     "1": [
@@ -175,6 +176,24 @@
     "dydx-mainnet-1": [
       "adydx",
       "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5"
+    ],
+    "534352": [
+      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "0x06efdbff2a14a7c8e15944d1f4a48f9f95f663a4",
+      "0xf55bec9cafdbe8730f096aa55dad6d22d44099df",
+      "0xca77eb3fefe3725dc33bccb54edefc3d9f764f97",
+      "0xeb466342c4d449bc9f53a865d5cb90586f405215",
+      "0x406cde76a3fd20e48bc1e0f60651e60ae204b040",
+      "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "0xedeabc3a1e7d21fe835ffa6f83a710c70bb1a051",
+      "0x0a3bb08b3a15a19b4de82f8acfc862606fb69a2d",
+      "0xae1846110f72f2daabc75b7ceee96558289edfc5",
+      "0x855cea8626fa7b42c13e7a688b179bf61e6c1e81",
+      "0x5b45b414c6cd2a3341be70ba22be786b0124003f",
+      "0xec8ddcb498b44c35efad7e5e43e0caf6d16a66e8",
+      "0x6b7d1c9d519dfc3a5d8d1b7c15d4e5bbe8dde1cf",
+      "0x2fc5cf65fd0a660801f119832b2158756968266d"
     ]
   }
 }
