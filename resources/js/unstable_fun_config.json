@@ -11,7 +11,8 @@
     "137",
     "43114",
     "25",
-    "59144"
+    "59144",
+    "dydx-mainnet-1"
   ],
   "supportedTokensMap": {
     "1": [
@@ -170,6 +171,10 @@
       "0x941d4ab8749497ec8cd7c76651a557ef55eb1c41",
       "0x685d2e7e847e5df4fd9e2ff0e2bc1c5ea86bb735",
       "0x54ecc8832b65c2db0c53235cde94991c5cdcabf9"
+    ],
+    "dydx-mainnet-1": [
+      "adydx",
+      "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5"
     ]
   }
 }
