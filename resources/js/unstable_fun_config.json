@@ -9,7 +9,8 @@
     "42161",
     "999",
     "137",
-    "43114"
+    "43114",
+    "25"
   ],
   "supportedTokensMap": {
     "1": [
@@ -109,6 +110,13 @@
       "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
       "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
       "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7"
+    ],
+    "25": [
+      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+      "0x66e428c3f67a68878562e79a0234c1f83c208770",
+      "0xf2001b145b43032aaf5ee2884e456ccd805f677d",
+      "0x87efb3ec1576dec8ed47e58b832bedcd86ee186e"
     ]
   }
 }
