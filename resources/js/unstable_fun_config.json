@@ -6,11 +6,12 @@
     "143",
     "999",
     "56",
-    "10",
+    "2741",
     "9745",
     "42161",
     "137",
     "43114",
+    "10",
     "25",
     "59144",
     "dydx-mainnet-1",
@@ -92,7 +93,7 @@
       "0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa",
       "0xd74f5255d557944cf7dd0e45ff521520002d5748",
       "0x93b346b6bc2548da6a1e7d98e9a421b42541425b",
-      "0x680447595e8b7b3Aa1B43beB9f6098C79ac2Ab3f"
+      "0x680447595e8b7b3Aa1B43beB9f6098C79ac 2Ab3f"
     ],
     "999": [
       "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
@@ -124,6 +125,12 @@
       "0xf2001b145b43032aaf5ee2884e456ccd805f677d",
       "0x87efb3ec1576dec8ed47e58b832bedcd86ee186e"
     ],
+    "2741": [
+      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+      "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+      "0x0709f39376deee2a2dfc94a58edeb2eb9df012bd"
+    ],
     "59144": [
       "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
       "0xaca92e438df0b2401ff60da7e4337b687a2435da",
@@ -136,7 +143,7 @@
       "0x266f4bae40dc982be323f3b0208c53ce886facfb",
       "0xb79dd08ea68a908a97220c76d19a6aa9cbde4376",
       "0xeb466342c4d449bc9f53a865d5cb90586f405215",
-      "0x406cde76a3fd20e48bc1e0f6061e60ae204b040",
+      "0x406cde76a3fd20e48bc1e0f60651e60ae204b040",
       "0x12f31b73d812c6bb0d735a218c086d44d5fe5f89",
       "0x6c6470898882b65e0275723d883a0d877aade43f",
       "0x1e1f509963a6d33e169d9497b11c7dbfe73b7f13",
