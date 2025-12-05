@@ -84,7 +84,7 @@
       "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
       "0xc21223249ca28397b4b6541dffaecc539bff0c59",
       "0x66e428c3f67a68878562e79a0234c1f83c208770",
-      "0xf2001b145b43032aaf5ee2884e456ccd805f677d",
+      "0xf2001b145b430 32aaf5ee2884e456ccd805f677d",
       "0x87efb3ec1576dec8ed47e58b832bedcd86ee186e"
     ],
     "30": [
@@ -145,7 +145,7 @@
     "137": [
       "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
       "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
-      "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "0 2791bca1f2de4661ed88a30c99a7a9449aa84174",
       "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
       "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
       "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89",
@@ -218,7 +218,7 @@
       "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
       "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
       "0xca79db4b49f608ef54a5cb813fbed3a6387bc645",
-      "0xb50a9625353abdf803d85efcdce07ad8becbc52bd5",
+      "0xb50a9625353abdf803d85efcdce07ad8becbc52b",
       "0x111111a1a0667d36bd57c0a9f569b98057111111",
       "0x7410e69958a8ece2a51c231c8528513d4d668c7a"
     ],
@@ -274,6 +274,11 @@
       "0xba9986d2381edf1da03b0b9c1f8b00dc4aacc369",
       "0x3a337a6ada9d885b6ad95ec48f9b75f197b5ae35",
       "0x102d758f688a4c1c5a80b116bd945d4455460282"
+    ],
+    "9001": [
+      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "0xe03494d0033687543a80c9b1ca7d6237f2ea8bd8",
+      "0x15c3eb3b621d1bff62cba1c9536b7c1ae9149b57"
     ],
     "59144": [
       "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
@@ -384,11 +389,6 @@
       "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
       "0x0000206329b97db379d5e1bf586bbdb969c63274"
     ],
-    "9001": [
-      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "0xe03494d0033687543a80c9b1ca7d6237f2ea8bd8",
-      "0x15c3eb3b621d1bff62cba1c9536b7c1ae9149b57"
-    ],
     "9745": [
       "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
       "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
@@ -405,6 +405,19 @@
       "0x78add880a697070c1e765ac44d65323a0dcce913",
       "0xdddd73f5df1f0dc31373357beac77545dc5a6f3f",
       "0xda6087e69c51e7d31b6dbad276a3c44703dfdcad"
+    ],
+    "534352": [
+      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+      "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+      "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+      "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
+    ],
+    "dydx-mainnet-1": [
+      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+      "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+      "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
     ],
     "sol": [
       "So11111111111111111111111111111111111111112",
